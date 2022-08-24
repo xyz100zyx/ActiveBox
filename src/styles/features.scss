@@ -1,0 +1,59 @@
+.features{
+
+
+  &__container{
+    max-width: 1170px;
+  }
+
+  .container{
+    margin: 0 auto;
+  }
+
+  &__inner{
+    margin-top: 116px;
+    min-height: 699.43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 116px;
+  }
+
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+  }
+
+  &__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D3033;
+    margin-top: 29px;
+  }
+
+  &__subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #6C7279;
+    margin-top: 20.43px;
+  }
+}

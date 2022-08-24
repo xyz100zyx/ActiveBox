@@ -1,0 +1,35 @@
+@import "./libs/normalize.scss";
+@import "./header.scss";
+@import "./features.scss";
+@import "./work.scss";
+@import "./team.scss";
+@import "./testimonials.scss";
+@import "./downl.scss";
+@import "./footer.scss";
+
+.button{
+  min-width: 370px;
+  background: #FF4343;
+  padding: 28.5px 0;
+  border: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  cursor: pointer;
+
+  &:hover{
+    background-color: #E71414;
+  }
+
+  &:active{
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+  }
+}
+
+
