@@ -57,3 +57,43 @@
     margin-top: 20.43px;
   }
 }
+
+@media (max-width: 1510px) and (min-width: 1024px) {
+  .features{
+
+    &__container{
+      max-width: 984px !important;
+    }
+
+    &__item{
+      max-width: 315px;
+    }
+
+    &__img{
+      max-width: 85px;
+      height: 85px;
+    }
+
+    &__title{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 24.52px;
+      padding: 25px 0;
+    }
+
+    &__subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 3.95px;
+    }
+
+    &__inner{
+      min-height: 523.89px;
+      margin-bottom: 80.11px;
+    }
+  }
+}
