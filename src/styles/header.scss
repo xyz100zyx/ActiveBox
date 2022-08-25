@@ -126,6 +126,36 @@
     margin-top: 82px;
     margin-bottom: 120px;
   }
+}
 
+@media (max-width: 1510px) and (min-width: 1024px) {
+  .header{
 
+    &__container{
+      max-width: 984px !important;
+    }
+
+    &__title{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 56px;
+      margin-top: 157px !important;
+    }
+
+    &__subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 61.86px !important;
+      padding: 0 100px;
+    }
+
+    &__button{
+      max-width: 314px;
+      margin-top: 91.57px !important;
+      margin-bottom: 126px !important;
+    }
+  }
 }
