@@ -72,3 +72,29 @@
     width: 100%;
   }
 }
+
+@media (max-width: 1510px) and (min-width: 1024px){
+  .work{
+
+    &__item{
+      max-width: 256.34px;
+      max-height: 230.57px;
+    }
+
+    &-item__name{
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 21px;
+      padding: 14px 0;
+    }
+
+    &-item__text{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 12.81px;
+    }
+  }
+}
