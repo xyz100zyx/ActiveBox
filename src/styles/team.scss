@@ -75,6 +75,69 @@
 
     }
   }
+}
 
+@media (max-width: 1510px) and (min-width: 1024px) {
+  .team{
 
+    &__container{
+      margin-top: 78.22px;
+      margin-bottom: 78.41px;
+      max-width: 984px !important;
+    }
+
+    &__items{
+
+    }
+
+    &__item{
+      max-width: 227px;
+    }
+
+    &__img{
+      max-width: 227px;
+      max-height: 227px;
+    }
+
+    &__name{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 25.23px;
+    }
+
+    &__position{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 4.6px;
+    }
+
+    &__text{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 22.45px;
+    }
+
+    &__socials{
+
+    }
+
+    &__social{
+      margin-top: 39.2px;
+
+      img{
+        width: 32.28px;
+        height: 32.28px;
+      }
+
+      a{
+
+      }
+    }
+  }
 }
