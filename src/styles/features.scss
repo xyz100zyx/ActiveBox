@@ -57,3 +57,13 @@
     margin-top: 20.43px;
   }
 }
+
+@media (max-width: 1510px) and (min-width: 1024px) {
+  .features{
+
+    &__container{
+      max-width: 984px !important;
+    }
+
+  }
+}
