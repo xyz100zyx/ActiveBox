@@ -86,3 +86,58 @@
     color: #FFFFFF;
   }
 }
+
+@media (min-width: 1024px) and (max-width: 1510px) {
+  .footer{
+
+    &__container{
+      padding-top: 46.59px !important;
+      justify-content: space-between;
+      max-width: 984px !important;
+    }
+
+    &__item{
+      max-width: 315px;
+    }
+
+    &-item__title{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &-item__text{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 17.72px !important;
+    }
+
+    &-item__icons{
+      max-width: 144.17px !important;
+      width: 100%;
+      margin-top: 32.51px !important;
+      margin-bottom: 41.19px !important;
+    }
+
+    &-item__img{
+      width: 33px;
+      height: 33px;
+    }
+
+    &__copyright{
+      margin-top: 14.28px !important;
+      margin-bottom: 14.43px !important;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+}

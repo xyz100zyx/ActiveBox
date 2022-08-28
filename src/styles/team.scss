@@ -62,6 +62,8 @@
 
   &__socials{
     margin-top: 37.86px;
+    display: flex;
+    gap: 6px;
   }
 
   &__social{
@@ -124,11 +126,11 @@
     }
 
     &__socials{
-
+      margin-top: 39.2px;
+      gap: 5.05px;
     }
 
     &__social{
-      margin-top: 39.2px;
 
       img{
         width: 32.28px;

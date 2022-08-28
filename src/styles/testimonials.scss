@@ -3,7 +3,7 @@
   background-color: #5C3249;
 
   &__container{
-
+    
   }
 
   &-swiper__slide{
@@ -62,4 +62,45 @@
   .swiper-pagination-bullet{
     background: #7E5D6F;
   }
+}
+
+@media (max-width: 1510px) and (min-width: 1024px) {
+    .testimonials{
+
+      &-swiper__img{
+        max-width: 502px;
+        max-height: 332px;
+      }
+
+      &-swiper__text{
+        margin-top: 47px;
+        margin-left: 88px;
+        max-width: 330px !important;
+      }
+
+      &-swiper__title{
+        font-family: 'Cardo';
+        font-style: italic;
+        font-weight: 400 !important;
+        font-size: 24px !important;
+        line-height: 32px !important;
+      }
+
+      &-swiper__subtitle{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700 !important;
+        font-size: 12px !important;
+        line-height: 14px !important;
+      }
+
+      & .swiper-pagination{
+        padding-top: 24px !important;
+
+        &-bullet{
+          margin-bottom: 1px !important;
+        }
+      }
+
+    }
 }
