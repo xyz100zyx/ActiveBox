@@ -24,25 +24,39 @@
             <a href="#">
                 <img src="./img/logo_header.png" alt="" class="header__logo">
             </a>
-            <nav class="header__nav">
-                <ul class="header__links">
-                    <li class="header__link">
-                        <a href="#">Features</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="#">Works</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="#">Our Team</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="#">Testimonials</a>
-                    </li>
-                    <li class="header__link">
-                        <a href="#">Download</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header__right">
+                <nav class="header__nav">
+                    <ul class="header__links">
+                        <li class="header__link">
+                            <a href="#">Features</a>
+                        </li>
+                        <li class="header__link">
+                            <a href="#">Works</a>
+                        </li>
+                        <li class="header__link">
+                            <a href="#">Our Team</a>
+                        </li>
+                        <li class="header__link">
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li class="header__link">
+                            <a href="#">Download</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__menu menu">
+                    <span id="burgerIcon" class="menu__icon"></span>
+                </div>
+            </div>
+        </div>
+        <div id="headerMenu" class="header__burger burger">
+            <ul class="burger__links">
+                <li class="burger__link"><a href="#">features</a></li>
+                <li class="burger__link"><a href="#">works</a></li>
+                <li class="burger__link"><a href="#">our team</a></li>
+                <li class="burger__link"><a href="#">testimonials</a></li>
+                <li class="burger__link"><a href="#">download</a></li>
+            </ul>
         </div>
         <div class="header__banner">
             <h1 class="header__title">
@@ -381,5 +395,6 @@
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/swiper.js"></script>
+<script src="./js/script.js"></script>
 </body>
 </html>
