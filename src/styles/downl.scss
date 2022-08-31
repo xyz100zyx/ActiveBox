@@ -80,3 +80,38 @@
     }
   }
 }
+
+@media (max-width: 1023px) and (min-width: 320px) {
+  .download{
+
+    &__container{
+      padding: 0 20px;
+      margin-top: 34.51px !important;
+      margin-bottom: 45px !important;
+    }
+
+    &__title{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      padding: 23px 0;
+    }
+
+    &__subtitle{
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15px;
+      margin-top: 3px;
+    }
+
+    &__btn{
+      min-width: auto !important;
+      min-height: auto !important;
+      padding: 34px 61px !important;
+      font-weight: 900;
+      font-size: 18px !important;
+      line-height: 21px !important;
+      margin-top: 13.42px !important;
+    }
+  }
+}
